@@ -1,0 +1,81 @@
+*
+body{
+	background-color:#fdf6e3;
+	margin: 0;
+	font-family: 'Fraunces', serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fdf6e3;
+	padding: 10px 40px;
+}
+
+header img{
+	width: 60px;
+}
+
+#menu-fijo ul li{
+	margin-left: 20px;
+}
+
+#menu-fijo ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+#menu-fijo ul{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.principal{
+	display: flex;
+	background-color: #92443a;
+	padding: 40px;
+    border-radius: 20px;
+}
+
+#boton-contrataatuchef{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.principal div{
+	width: 50%;
+	padding: 20px;
+}
+.principal div img{
+	width: 50%;
+	display: block;
+}
+
+.secundario{
+display: flex;
+justify-content: center;
+}
+
+.secundario div{
+    width: 33.3% ;
+    margin:0 1.5% ;
+}
+
+.secundario div img{
+    width: 100% ;
+    display: block ;
+}
+
+
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+footer img{
+	width: 40px;
+	margin: 0 10px;
+}
